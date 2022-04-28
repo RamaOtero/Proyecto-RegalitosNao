@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+  
+  ul {
+    list-style: none; }
+  
+a {
+    text-decoration: none;
+}
+.nav__logo {
+    font-family: 'Parisienne', cursive;
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin: 0 0 0 100px;
+} 
+.nav {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    background-color: #FFCEC6;
+    align-items: center;
+    height: 100px;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6); 
+}
+.nav__list {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 100px;
+}
+.nav__elemento a {
+    color: black;
+    margin-right: 10px;
+}
+.seleccionado a {
+    border-bottom: solid 0.2px black;
+}
+.header {
+    background-image: url(./Assets/fotoFondo2.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header__text {
+    margin-top: 250px;
+    text-align: center;
+    margin-left: 50px;
+}
+.header__text p {
+    font-family: 'Parisienne', cursive;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.header__text span {
+    font-family: 'Poppins', sans-serif;
+}
+.main__imagenTexto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 100px 0 100px ;
+    
+}
+.main__imagenTexto p {
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.main__imagen {
+    width: 300px;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6); 
+}
+.main__imagen--fondo {
+    padding: 30px 30px 30px 30px;
+    background-color:#FFCEC6;
+}
+
+.main__publiContenedor {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 100px 0 100px;
+    flex-wrap: wrap;
+}
+
+.main__publi--foto {
+    width: 200px;
+    height: 200px;
+    border: solid 10px #FFCEC6;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6); 
+}
+.footer {
+    width: 100%;
+    height: 180px;
+    background-color: #8da8a8;
+    margin-top: 80px;
+    padding-top: 20px;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6); 
+}
+.footer__iconsHrs {
+    display: grid;
+    justify-items: center;
+}
+.footer__iconsHrs span {
+    font-family: 'Poppins', sans-serif;
+}
+.footer__icons {
+    margin-bottom: 10px;
+}
+.footer__icons--medio {
+    margin: 0 15px 0 15px;
+}
