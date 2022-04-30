@@ -111,12 +111,23 @@ p {
     box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6); 
 }
 .footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
     width: 100%;
-    height: 180px;
+    height: 200px;
     background-color: #8da8a8;
     margin-top: 80px;
     padding-top: 20px;
     box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6); 
+}
+.footer img {
+    width: 125px;
+    margin-bottom: 15px;
+    justify-self: center;
+    align-self: center;
+    border: solid 5px #FFCEC6;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
 }
 .footer__iconsHrs {
     display: grid;
@@ -124,6 +135,7 @@ p {
 }
 .footer__iconsHrs span {
     font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 .footer__icons {
     margin-bottom: 10px;
@@ -168,14 +180,14 @@ p {
 }
 .carta__image {
     width: 200px;
-    border: solid 15px #FFCEC6;
+    border: solid 10px #FFCEC6;
     border-radius: 15px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
     margin-bottom: 10px;
     
 }
 .main__Textoimg {
-    margin-top: 100px;
+    margin-top: 0px;
 }
 .main__Textoimg--fondo {
     background-color: #FFCEC6;
@@ -184,7 +196,7 @@ p {
 .main__Textoimg--div {
     display: flex;
     align-items: flex-end;
-    margin-top: 250px;
+    margin-top: 180px;
 }
 .main__Textoimg--div img {
     width: 200px;
@@ -200,15 +212,27 @@ p {
     font-weight: 600px;
 }
 .main__Textoimg--pFondo {
-    background-color: #FFCEC6;
+    background-color: #ffcdc691;
     width: 100%;
     padding-bottom: 30px;
     z-index: 1;
+    margin-bottom: 80px;
 }
 .footerT {
+    display: grid;
     width: 100%;
-    height: 180px;
+    height: 200px;
     background-color: #8da8a8;
     padding-top: 20px; 
     box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6); 
+    grid-template-columns: auto auto auto;
+}
+.footerT img {
+    width: 125px;
+    margin-bottom: 15px;
+    justify-self: center;
+    align-self: center;
+    border: solid 5px #FFCEC6;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
 }
