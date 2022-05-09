@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,29 +15,53 @@
 </head>
 <body>
     <header class="header">
+        <div class="textoNav">
+            <span>Lorem ipsum dolor sit amet consectetur.</span>
+        </div>
         <nav class="nav">
                 <a href="#" class="nav__logo">Regalitos Nao</a>
             <ul class="nav__list">
                 <li class="nav__elemento seleccionado"><a href="./index.html">Inicio</a></li>
                 <li class="nav__elemento"><a href="./Sections/tienda.html">Tienda</a></li>
-                <li class="nav__elemento"><a href="#">Galeria</a></li>
-                <li class="nav__elemento"><a href="#">Nosotros</a></li>
+                <li class="nav__elemento"><a href="./Sections/acercaDe.html">Acerca De</a></li>
                 <li class="nav__elemento"><a href="#">Contacto</a></li>
             </ul>
         </nav>
-        <div class="header__text">
-            <p>"Detalles hechos con amor para los mejores momentos"</p>
-            <span>MANUALITY SHOP • HAND MADE</span>
-        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Assets/BannerFb.png" class="d-block w-100" alt="100%">
+              </div>
+              <div class="carousel-item">
+                <img src="./Assets/BannerFb.png" class="d-block w-100" alt="100%">
+              </div>
+              <div class="carousel-item">
+                <img src="./Assets/BannerFb.png" class="d-block w-100" alt="100%">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </header>
     <main>
         <section class="main__imagenTexto">
-            <div class="main__imagen--fondo">
+            <div class="main__imagen--fondo" data-aos="fade-right">
                 <img  class="main__imagen" src="./Assets/handmade1.jpg">
             </div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolores consectetur impedit, suscipit et iusto repellat porro odit aspernatur beatae sint quasi assumenda maiores fugit? Nihil inventore modi assumenda officia rerum eius corrupti quae, recusandae nostrum cum voluptate aspernatur! Non veniam aliquam deleniti illum praesentium dolore reprehenderit nulla necessitatibus inventore.</p>
+            <p data-aos="fade-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolores consectetur impedit, suscipit et iusto repellat porro odit aspernatur beatae sint quasi assumenda maiores fugit? Nihil inventore modi assumenda officia rerum eius corrupti quae, recusandae nostrum cum voluptate aspernatur! Non veniam aliquam deleniti illum praesentium dolore reprehenderit nulla necessitatibus inventore.</p>
         </section>
-        <section class="main__publiContenedor">
+        <section class="main__publiContenedor" data-aos="fade-up">
                 <img class="main__publi--foto" src="./Assets/handmade11.jpg">
                 <img class="main__publi--foto" src="./Assets/handmade2.jpg" >
                 <img class="main__publi--foto" src="./Assets/handmade3.jpg" >
@@ -69,5 +95,9 @@
        </div>
        <img src="../Assets/handmade2.jpg">
     </footer>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
