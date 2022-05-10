@@ -9,6 +9,7 @@
 a {
     text-decoration: none;
 }
+
 p {
     margin-bottom: 0;
 }
@@ -121,9 +122,21 @@ p {
 
 .main__publi--foto {
     width: 200px;
-    height: 200px;
-    border: solid 10px #FFCEC6;
+    height: 200px;   
     box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6); 
+}
+.main__contactoBanner img {
+    width: 100vw;
+      
+}
+.main__contacto {
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto;
+}
+.main__contacto--p {
+    display:flex;
+    flex-direction: column;
 }
 .footer {
     display: grid;
@@ -172,7 +185,7 @@ p {
 }
 .tienda__cartas {
  display: flex;
- justify-content: space-between;
+ justify-content: space-around;
  flex-wrap: wrap;
  max-width: 82%;
  row-gap: 20px;
