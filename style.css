@@ -393,6 +393,31 @@ p {
 
 /* ScreenMedia */
 
+@media screen and (min-width: 1440px) {
+
+    .carousel {
+        width: 100%;
+    }
+
+    .main__imagenTexto {
+        margin: 100px 300px 0 300px;
+    }
+    .main__imagenTexto2 {
+        margin: 100px 300px 0 300px;
+    }
+
+
+    .main__publiContenedor {
+        margin: 100px 300px 0 300px;
+    }
+    .main__acercaDe {
+        margin: 0px 300px 0 300px;
+    }
+    .main__acercaDeMedio {
+        margin: 0px 300px 0 300px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .nav__logo {
         font-size: 2rem;
