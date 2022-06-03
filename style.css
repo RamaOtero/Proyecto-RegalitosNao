@@ -571,6 +571,9 @@ p {
    .main__acercaDeMedio div {
        margin: 0 50px 20px 50px;
    }
+   .main__acercaDeMedio img {
+    margin-bottom: 20px;
+   }
    .acercaDe {
        gap: 100px;
    }
@@ -668,6 +671,7 @@ p {
 }
 .main__acercaDeMedio img {
     width: 200px;
+    margin-bottom: 20px;
 }
 .main__acercaDeMedio div {
    margin: 0 50px 20px 50px;
