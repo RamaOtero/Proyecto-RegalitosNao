@@ -516,8 +516,7 @@ p {
     .nav {
         margin-top: 40px;
         height: 80px;
-        position: fixed;
-     align-self: flex-start;
+        top: 0%;
     }
     .nav__list--visible {
         margin-top: 20pz;
@@ -584,8 +583,7 @@ p {
  .nav {
      margin-top: 30px;
      height: 80px;
-     position: fixed;
-     align-self: flex-start;
+     top: 0%;
  }
  .nav__list--visible {
      margin-top: 0;
