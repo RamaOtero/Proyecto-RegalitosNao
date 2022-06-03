@@ -337,7 +337,7 @@ p {
 .main__contactoBanner img {
     width: 100%;
     height: 100%;
-    
+    margin-top: 100px;
 }
 .main__contacto {
     display: flex;
@@ -501,8 +501,8 @@ p {
     }
      .main__acercaDeMedio {
         flex-direction: column;
-        
         padding: 0;
+        flex-flow: column-reverse;
     }
     .main__acercaDeMedio div {
         margin: 0 50px 20px 50px;
@@ -560,6 +560,7 @@ p {
        flex-direction: column;
        margin: 0;
        padding: 0;
+       flex-flow: column-reverse;
    }
    .main__acercaDeMedio div {
        margin: 0 50px 20px 50px;
@@ -643,6 +644,7 @@ p {
    flex-direction: column;
    margin: 0;
    padding: 0;
+   flex-flow: column-reverse;
 }
 .main__acercaDeMedio img {
     width: 200px;
